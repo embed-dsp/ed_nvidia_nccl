@@ -1,8 +1,8 @@
 
 # Build and Installation of NVIDIA NCCL
 
-This repository contains bash scripts for build and installation of the 
-[NVIDIA Collective Communication Library (NCCL)](https://developer.nvidia.com/nccl).
+This repository contains bash scripts for the build and installation of the 
+[NVIDIA Collective Communication Library (NCCL)](https://developer.nvidia.com/nccl) on **Linux**.
 
 
 ## Overview
@@ -11,18 +11,18 @@ The `bin` directory contains the following bash scripts:
 
 ```text
 bin/
-├── build.sh                # Build NCCL library and tools.
-└── install.sh              # Install NCCL library and tools in the local file system.
+├── build.sh        # Build NCCL library and tools.
+└── install.sh      # Install NCCL library and tools in the local file system.
 ```
 
-**NOTE**: Build of the **NVIDIA NCCL** library and tools requires that **NVIDIA CUDA Toolkit** is installed in the system.
-The installation of **NVIDIA CUDA Toolkit** can be found here [ed_nvidia_cuda](https://github.com/embed-dsp/ed_nvidia_cuda)
+**NOTE**: Build of the **NVIDIA NCCL** library and tools requires that the **NVIDIA CUDA Toolkit** is installed on the system.
+Instructions for installing the **NVIDIA CUDA Toolkit** can be found here [ed_nvidia_cuda](https://github.com/embed-dsp/ed_nvidia_cuda)
 
 
 ## Build
 
-Enter the `bin` directory and edit the `build.sh` script and make sure that the 
-path to the sourcing of the CUDA environment is set correctly.
+Enter the `bin` directory and edit the `build.sh` script.
+Make sure that the path used to source the CUDA environment is set correctly.
 
 Type the following command:
 
@@ -33,8 +33,8 @@ Type the following command:
 
 ## Local Installation
 
-Enter the `bin` directory and edit the `install.sh` script and make sure that the 
-`owner:group` is set correctly for the `chown` command.
+Enter the `bin` directory and edit the `install.sh` script.
+Make sure that the `owner:group` is set correctly for the `chown` command.
 
 Type the following command:
 
@@ -121,3 +121,8 @@ The **NVIDIA NCCL** library is installed in the local file system in `/opt/nvidi
     └── pkgconfig
         └── nccl.pc
 ```
+
+
+## Links
+
+* https://developer.nvidia.com/nccl

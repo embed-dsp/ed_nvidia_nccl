@@ -13,7 +13,7 @@ if [ ! -d "../github/nccl" ]; then
     git clone https://github.com/NVIDIA/nccl.git ../github/nccl
 fi
 
-# Enter nccl github repo.
+# Enter github repo.
 cd ../github/nccl
 
 # ...
