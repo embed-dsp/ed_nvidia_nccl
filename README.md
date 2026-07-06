@@ -27,6 +27,7 @@ Make sure that the path used to source the CUDA environment is set correctly.
 Type the following command:
 
 ```sh
+# Command
 ./build.sh
 ```
 
@@ -38,6 +39,7 @@ Enter the `bin` directory.
 Type the following command:
 
 ```sh
+# Command
 ./install.sh
 ```
 
