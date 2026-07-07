@@ -2,7 +2,7 @@
 # Build and Installation of NVIDIA NCCL
 
 This repository contains bash scripts for the build and installation of the 
-[NVIDIA Collective Communication Library (NCCL)](https://developer.nvidia.com/nccl) on **Linux**.
+[NVIDIA Collective Communication Library (NCCL)](https://developer.nvidia.com/nccl) on **Fedora Linux**.
 
 
 ## Overview
